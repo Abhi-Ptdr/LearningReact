@@ -4,32 +4,7 @@ export default function About(props) {
     let myStyle = {
         color: props.mode === "dark"? "#F5F5F5":"black",
         backgroundColor: props.mode === "dark"? "#181818":"white"
-    }
-    
-    // const [myStyle, setMyStyle] = useState({
-    //     color: 'black',
-    //     backgroundColor: 'white'
-    // })
-    // const [btnText, setBtnText] = useState('Enable Dark Mode')
-    // const toggleStyle = ()=>{
-    //     if(myStyle.color === 'black'){
-    //         setMyStyle({
-    //             color: 'white',
-    //             backgroundColor: 'black',
-    //             border: '1px solid white'
-    //         })
-    //         setBtnText('Enable Light Mode');
-    //     }
-    //     else{
-    //         setMyStyle({
-    //             color: 'black',
-    //             backgroundColor: 'white',
-    //             border: '1px solid white'
-    //         })
-    //         setBtnText('Enable Dark Mode');
-    //     }
-    // }
-    
+    }    
 
     return (
     <div className='container' style={{color: props.mode === "dark"? "#F5F5F5":"black"}}>

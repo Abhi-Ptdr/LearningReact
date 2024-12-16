@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Abhi-Ptdr.github.io/TextUtilities",
   "name": "textutility",
   "version": "0.1.0",
   "private": true,
@@ -40,7 +41,9 @@
   },
   "description": "Updated TextUtils with Routes",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
+  },
   "author": "Abhishek Patidar",
   "license": "ISC"
 }
